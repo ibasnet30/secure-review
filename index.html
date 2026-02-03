@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SmallBiz SecureReview | Security Review for Your Business</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Link external CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <div class="logo-icon">SR</div>
+        SmallBiz<span>SecureReview</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#services">Reviews</a>
+        <!-- <a href="#cases">Results</a> -->
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Consult</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <div>
+        <div class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          Security review for small businesses
+        </div>
+        <h1>
+          We review your
+          <span>network, devices, identity, email and website.</span>
+        </h1>
+        <p class="hero-subtitle">
+          SmallBiz SecureReview focuses on small and growing businesses. We review your
+          current setup and give clear, practical security recommendations for your
+          network devices, laptops and PCs, servers, user accounts, emails and websites.
+        </p>
+
+        <div class="hero-metrics">
+          <div class="hero-metric">
+            <strong>50+</strong>
+            <span>Small businesses reviewed</span>
+          </div>
+          <div class="hero-metric">
+            <strong>5</strong>
+            <span>Key areas: Network, Endpoint, Identity, Email, Website</span>
+          </div>
+          <div class="hero-metric">
+            <strong>1–2 wks</strong>
+            <span>Typical review time</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">
+            Book a free intro call
+          </a>
+          <a href="#services" class="btn-ghost">
+            See what we review
+          </a>
+        </div>
+        <p class="hero-note">
+          <strong>No heavy jargon.</strong> You get a simple report: what is safe,
+          what is risky, and what to fix first.
+        </p>
+      </div>
+
+      <aside class="hero-visual">
+        <div class="hero-visual-inner">
+          <div class="terminal-header">
+            <span>review.smallbiz-secure</span>
+            <div class="terminal-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+          </div>
+          <div class="terminal-body">
+            <div class="terminal-line">
+              <span class="prompt">review@smallbiz</span>:<span class="cmd">~$ run_security_review --scope="network,endpoint,identity,email,website"</span>
+            </div>
+            <div class="terminal-line">
+              <span class="ok">[OK]</span> Network devices discovered (router, switch, Wi-Fi)
+            </div>
+            <div class="terminal-line">
+              <span class="ok">[OK]</span> Endpoints scanned (8 laptops, 2 PCs, 1 server)
+            </div>
+            <div class="terminal-line">
+              <span class="warn">[WARN]</span> 3 weak admin passwords detected
+            </div>
+            <div class="terminal-line">
+              <span class="warn">[WARN]</span> Email domain missing SPF / DMARC
+            </div>
+            <div class="terminal-line">
+              <span class="fail">[RISK]</span> Website login uses plain HTTP, not HTTPS
+            </div>
+            <div class="terminal-line">
+              <span class="ok">[REPORT]</span> Clear recommendations generated for each area
+            </div>
+
+            <div class="pill-row">
+              <div class="pill">Network review</div>
+              <div class="pill">Endpoint check</div>
+              <div class="pill">Identity &amp; email review</div>
+              <div class="pill">Website risk check</div>
+            </div>
+          </div>
+
+          <div class="badge-floating">
+            <strong>One simple action plan</strong>
+            <span>We prioritise fixes so you know what to do this week, this month and later.</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- SERVICES / WHAT WE REVIEW -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-tag">Reviews</div>
+          <h2 class="section-title">What we review for your business</h2>
+        </div>
+        <p class="section-kicker">
+          Focused on the main areas small businesses use every day.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon">📡</div>
+          <h3>Network Devices</h3>
+          <p>
+            We review your router, modem, firewall and Wi-Fi setup. We check
+            default passwords, guest networks, encryption and remote access settings.
+          </p>
+          <div class="card-meta">
+            <span><span class="dot-small"></span> Routers, switches, Wi-Fi</span>
+            <span>Secure internet entry point</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">💻</div>
+          <h3>Endpoints: Laptops, PCs &amp; Servers</h3>
+          <p>
+            We look at antivirus, updates, disk encryption, local admin accounts
+            and how data is stored on your laptops, PCs and servers.
+          </p>
+          <div class="card-meta">
+            <span><span class="dot-small"></span> Windows, macOS, servers</span>
+            <span>Reduce chance of malware</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🪪</div>
+          <h3>Identity &amp; Access</h3>
+          <p>
+            We review how staff log in: password strength, multi-factor
+            authentication (MFA), shared accounts and account removal for ex-staff.
+          </p>
+          <div class="card-meta">
+            <span><span class="dot-small"></span> Accounts &amp; logins</span>
+            <span>Stronger access control</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">📧</div>
+          <h3>Email Security</h3>
+          <p>
+            We check your email provider settings, spam and phishing protection,
+            and DNS records such as SPF, DKIM and DMARC to reduce fake emails.
+          </p>
+          <div class="card-meta">
+            <span><span class="dot-small"></span> Microsoft 365 / Google</span>
+            <span>Lower phishing risk</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🌐</div>
+          <h3>Website &amp; Online Forms</h3>
+          <p>
+            We review if your website uses HTTPS, how logins are protected, basic
+            security headers and how contact / booking forms handle data.
+          </p>
+          <div class="card-meta">
+            <span><span class="dot-small"></span> CMS, custom sites</span>
+            <span>Safer online presence</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">📋</div>
+          <h3>Prioritised Recommendations</h3>
+          <p>
+            You receive a short, clear report with a checklist ordered by impact
+            and cost so you can fix the most important items first.
+          </p>
+          <div class="card-meta">
+            <span><span class="dot-small"></span> Simple checklist</span>
+            <span>Ready to hand to IT</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES / EXAMPLES -->
+  <!-- <section id="cases">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-tag">Examples</div>
+          <h2 class="section-title">How a review helps small businesses</h2>
+        </div>
+        <p class="section-kicker">
+          A few typical scenarios. Names can be anonymised in your portfolio.
+        </p>
+      </div>
+
+      <div class="case-grid">
+        <article class="case-main">
+          <small>Featured • Local accounting firm</small>
+          <h3>Protecting client data across laptops and email</h3>
+          <div class="case-meta">
+            <span>Team size: 12 staff</span>
+            <span>Scope: Endpoint, identity, email</span>
+            <span>Duration: 2 weeks</span>
+          </div>
+          <p class="case-highlight">
+            The firm kept tax documents on staff laptops and used a shared email
+            inbox. Our review found missing disk encryption, weak passwords and
+            no MFA on email accounts.
+          </p>
+          <div class="case-kpis">
+            <div class="case-kpi">
+              <strong>100%</strong>
+              Laptops with encryption &amp; auto-lock enabled
+            </div>
+            <div class="case-kpi">
+              <strong>MFA</strong>
+              Added to all email and cloud accounts
+            </div>
+            <div class="case-kpi">
+              <strong>Simple</strong>
+              2-page action plan for owner &amp; IT
+            </div>
+          </div>
+        </article>
+
+        <div class="case-list">
+          <article class="case-item">
+            <div class="case-item-title">
+              <span>Café &amp; restaurant group • Wi-Fi &amp; POS</span>
+              <small>Network &amp; endpoint</small>
+            </div>
+            <p>
+              Separated staff Wi-Fi from customer Wi-Fi, secured the router,
+              updated POS terminals and added clear rules for who can access the
+              network devices.
+            </p>
+          </article>
+
+          <article class="case-item">
+            <div class="case-item-title">
+              <span>Online store • Website &amp; email checks</span>
+              <small>Website &amp; email</small>
+            </div>
+            <p>
+              Enabled HTTPS everywhere, improved admin login protection, added
+              SPF/DKIM/DMARC, and reduced fake “order” emails sent to customers.
+            </p>
+          </article>
+
+          <article class="case-item">
+            <div class="case-item-title">
+              <span>Consulting agency • Identity clean-up</span>
+              <small>Identity</small>
+            </div>
+            <p>
+              Removed old accounts of ex-staff, set password policies, and
+              created a basic checklist for onboarding and offboarding staff.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-tag">About</div>
+          <h2 class="section-title">Made for non-technical owners</h2>
+        </div>
+        <p class="section-kicker">
+          We translate security into clear steps that small businesses can actually follow.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            SmallBiz SecureReview exists to help small business owners understand their
+            real security risks without having to become security experts. We focus on
+            the things you already use: your internet router, laptops and PCs, user
+            accounts, email and website.
+          </p>
+          <p>
+            Instead of long, confusing reports, we give you a short summary and a simple
+            action list that you can use yourself or hand to your IT support person.
+          </p>
+
+          <ul class="about-points">
+            <li>Clear, simple language with screenshots and examples.</li>
+            <li>Focus on practical fixes, not expensive tools first.</li>
+            <li>Flexible for home offices, shops, clinics and online businesses.</li>
+            <li>Option for a follow-up review to check progress.</li>
+          </ul>
+        </div>
+
+        <aside class="trust-card">
+          <strong>What you receive after a review</strong>
+          <p>
+            Every engagement includes a short PDF report and a prioritised checklist,
+            broken into “quick wins”, “this month” and “later” items.
+          </p>
+
+          <div class="trust-badges">
+            <div class="trust-badge">Network &amp; device findings</div>
+            <div class="trust-badge">Identity &amp; email checklist</div>
+            <div class="trust-badge">Website security notes</div>
+            <div class="trust-badge">Simple next-step plan</div>
+          </div>
+
+          <div class="trust-footer">
+            <!-- <span>Typical length: <strong>5–10 pages</strong></span> -->
+            <span>Format: PDF + optional walkthrough call</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-tag">Contact</div>
+          <h2 class="section-title">Start your small business security review</h2>
+        </div>
+        <p class="section-kicker">
+          Share a few details and we’ll reply with options and a rough time estimate.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Tell us about your setup</h3>
+          <p>
+            Please avoid sending passwords or sensitive data. Just describe the
+            devices and services you use (for example: 5 laptops, 1 server,
+            Microsoft 365, WordPress website, etc.).
+          </p>
+
+          <!-- Dummy form (no backend) -->
+         <form id="contact-form" novalidate>
+  <div class="form-grid">
+    <div class="form-field">
+      <label for="name">
+        Full name <span class="required-star">*</span>
+      </label>
+      <input id="name" type="text" placeholder="Alex Smallbusiness" required />
+    </div>
+
+    <div class="form-field">
+      <label for="email">
+        Work email <span class="required-star">*</span>
+      </label>
+      <input id="email" type="email" placeholder="you@yourbusiness.com" required />
+    </div>
+
+    <div class="form-field">
+      <label for="business">
+        Business name <span class="required-star">*</span>
+      </label>
+      <input id="business" type="text" placeholder="Your Business Pty Ltd" required />
+    </div>
+
+    <div class="form-field">
+      <label for="size">
+        Number of staff <span class="required-star">*</span>
+      </label>
+      <select id="size" required>
+        <option value="">Select...</option>
+        <option>1–5</option>
+        <option>6–20</option>
+        <option>21–50</option>
+        <option>51–100</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="form-field">
+    <label for="focus">
+      Main area you’re worried about <span class="required-star">*</span>
+    </label>
+    <select id="focus" required>
+      <option value="">Select...</option>
+      <option>Network / Wi-Fi</option>
+      <option>Laptops / PCs / server</option>
+      <option>Identity &amp; passwords</option>
+      <option>Email &amp; phishing</option>
+      <option>Website / online store</option>
+      <option>All of the above</option>
+    </select>
+  </div>
+
+  <div class="form-field">
+    <label for="message">
+      Short description <span class="required-star">*</span>
+    </label>
+    <textarea
+      id="message"
+      required
+      placeholder="Example: We have 6 laptops, 1 office PC and a WordPress website. No idea if our router or email settings are secure."
+    ></textarea>
+  </div>
+
+  <button type="submit" class="btn-primary" style="margin-top: 0.5rem;">
+    Send request
+  </button>
+
+  <p id="form-success" class="form-success">
+    ✅ Message sent (demo). We’ll get back to you soon.
+  </p>
+</form>
+
+
+
+
+
+        </div>
+
+        <aside class="contact-meta">
+          <div>
+            <strong>Prefer email?</strong><br />
+            Reach us directly at <a href="mailto:ishanbasnet3463@gmail.com">surajrimal403@gmail.com</a>.
+          </div>
+          <div>
+            <strong>Time &amp; scope</strong><br />
+            We normally complete a review within 1–2 weeks depending on the number
+            of devices and systems.
+          </div>
+          <div>
+            <strong>Follow-up options</strong><br />
+            Optional follow-up call to walk through the report and help you plan next steps.
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> SmallBiz SecureReview. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#hero">Back to top</a>
+        <a href="#services">What we review</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+  
+<script>
+  // Footer year
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Contact form validation + fake submit
+  const form = document.getElementById("contact-form");
+  const successMessage = document.getElementById("form-success");
+
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault(); // don't reload page
+
+      // Mark form as 'was validated' so CSS can style invalid fields
+      form.classList.add("was-validated");
+
+      // If form is not valid, show browser's default tooltip & stop
+      if (!form.checkValidity()) {
+        form.reportValidity(); // shows native messages
+        return;
+      }
+
+      // If valid → fake "sent" state
+      successMessage.style.display = "block";
+
+      // Clear fields
+      form.reset();
+      // Remove validated class so red borders disappear
+      form.classList.remove("was-validated");
+
+      // Hide message after 5 seconds (optional)
+      setTimeout(() => {
+        successMessage.style.display = "none";
+      }, 5000);
+    });
+  }
+</script>
+
+  
+</body>
+</html>
+
+
+<!-- testing -->
+
