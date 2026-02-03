@@ -923,3 +923,10 @@ footer {
 .was-validated .form-field select:invalid:focus {
   box-shadow: 0 0 0 1px rgba(255, 51, 102, 0.4);
 }
+
+
+@media (max-width: 900px) {
+  .hero-visual {
+    display: none;
+  }
+}
